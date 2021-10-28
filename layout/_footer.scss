@@ -13,28 +13,35 @@
     background-color: transparent;
     width: 100%;
     height: 300px;
-}
-.icon-github, .icon-insta { 
-    width: 64px;
-    height: 64px;
-    padding: 24px;
-}
-.icons{
-    width: 40%;
-    justify-content: center;
-    display: flex;
-}
-.terme-and_conditions{
-    font-size: 24px;
-    font-family: 'Khand', sans-serif;
-    color: #110F0E;
-    padding: 24px;
-}
-.footer_link{
-    text-decoration: underline;
-    color: #110F0E;
 
-    &:hover{
-        cursor: pointer;
+    .icons{
+        width: 40%;
+        justify-content: center;
+        display: flex;
+
+        .icon-github, .icon-insta { 
+            width: 64px;
+            height: 64px;
+            padding: 24px;
+        }
+    }
+    .footer_text{
+        font-size: 24px;
+        font-family: 'Khand', sans-serif;
+        color: #110F0E;
+        padding: 24px;
+    }
+    .footer_link{
+        text-decoration: underline;
+        color: #110F0E;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .footer_others{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
