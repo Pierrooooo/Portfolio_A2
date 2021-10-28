@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.texts{
+    color: #110F0E;
+    font-family: 'Darker-Grotesque', sans-serif;
+}
+body{
+    background-color: #EDB4CA;
+}
+.container{
+    padding: 5% 10%;
+    width: 80%;
+}
+.imgs{
+    height: 768px;
+    width: 1366px;
+    background-color: white;
+}
+.texts{
+    font-size: 24px;
+    z-index: 1;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    text-align: right;
+}
+.welcome{
+    font-size: 180px;
+    font-family: 'Khand', sans-serif;
+    background-color: rgba($color: #110F0E, $alpha: 0.08);
+    color: transparent;
+    position: absolute;
+    text-shadow: 4px 4px 4px #EDB4CA;
+    -webkit-background-clip: text;
+
+    p{
+        box-shadow: inset 4px 4px 4px #110F0E;
+}
+}
+.div_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.me_in_photo{
+    width: 400px;
+}
+.go_down{
+    width: 96px;
+    position: absolute;
+    bottom: -46px;
+    transform: translateX(-50%);
+}
+.text_webdev{
+    font-size: 64px;
+    width: 50%;
+    text-align: center;
+    z-index: 1;
+}
+.text_iim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 48px;
+}
+.item2{
+    flex-direction: row-reverse;
+}
+.text_passions{
+    text-align: left;
+    left: 0;
+}

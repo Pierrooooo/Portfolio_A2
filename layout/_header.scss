@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-home;
+    position: fixed;
+    z-index: 1000;
+}
+.header_link{
+    text-decoration: none;
+    color: #110F0E;
+    font-family: 'Darker-Grotesque', sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.5s ease-in-out;
+
+
+    &:hover{
+        text-decoration: underline;
+    }
+    
+}
+h1{
+    font-size: 48px;
+    font-weight: normal;
+}
