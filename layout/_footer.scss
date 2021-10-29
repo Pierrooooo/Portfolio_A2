@@ -1,5 +1,5 @@
 .separation {
-	border: 2px solid #110F0E;
+	border: 2px solid $almost-black;
     color: #333;
     text-align: center;
     width: 60%;
@@ -28,12 +28,12 @@
     .footer_text{
         font-size: 24px;
         font-family: 'Khand', sans-serif;
-        color: #110F0E;
+        color: $almost-black;
         padding: 24px;
     }
     .footer_link{
         text-decoration: underline;
-        color: #110F0E;
+        color: $almost-black;
 
         &:hover{
             cursor: pointer;

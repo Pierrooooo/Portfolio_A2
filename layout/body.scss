@@ -2,24 +2,22 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #EDB4CA;
+.home_body{
+    background-color: $color-home;
 }
 .container{
     padding: 5% 10%;
     width: 80%;
 
-    .texts{
-        color: #110F0E;
-        font-family: 'Darker-Grotesque', sans-serif;
-    }
-
     .imgs{
         height: 768px;
         width: 1366px;
-        background-color: white;
+        background-color: $white;
+        box-shadow: 0 4px 8px rgba($almost-black, 0.1);
     }
     .texts{
+        font-family: 'Khand', sans-serif;
+        color: $almost-black;
         font-size: 24px;
         z-index: 1;
         width: 30%;
@@ -31,15 +29,12 @@ body{
     .welcome{
         font-size: 180px;
         font-family: 'Khand', sans-serif;
-        background-color: rgba($color: #110F0E, $alpha: 0.08);
+        background-color: rgba($color: $almost-black, $alpha: 0.08);
         color: transparent;
         position: absolute;
-        text-shadow: 4px 4px 4px #EDB4CA;
+        text-shadow: 4px 4px 4px $color-home;
         -webkit-background-clip: text;
 
-        p{
-            box-shadow: inset 4px 4px 4px #110F0E;
-    }
     }
     .div_me{
         display: flex;
@@ -51,16 +46,22 @@ body{
 
         .me_in_photo{
             width: 400px;
+            height: 400px;
         }
         .go_down{
             width: 96px;
             position: absolute;
             bottom: -46px;
-            transform: translateX(-50%);
+
+            :hover{
+                cursor: pointer;
+            }
         }
     }
     
     .text_webdev{
+        color: $almost-black;
+        font-family: 'Darker-Grotesque', sans-serif;
         font-size: 64px;
         width: 50%;
         text-align: center;
@@ -87,6 +88,9 @@ body{
         text-align: left;
         left: 0;
     }
+    .texts{
+        background-color: rgba(255,255,255, 0.5);
+    }
 
     .div_go_up{
         display: flex;
@@ -98,6 +102,10 @@ body{
             width: 96px;
             transform: rotate(180deg);
             padding-left: 0 16px 16px 0;
+
+            :hover{
+                cursor: pointer;
+            }
         }
     }
 }
