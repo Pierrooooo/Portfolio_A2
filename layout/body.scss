@@ -9,12 +9,28 @@
     padding: 5% 10%;
     width: 80%;
 
-    .imgs{
+    .grid{ 
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;       
         height: 768px;
         width: 1366px;
-        background-color: $white;
-        box-shadow: 0 4px 8px rgba($almost-black, 0.1);
+        background-size: cover;
+
+        .imgs{
+            background-color: $white;
+            box-shadow: 0 4px 8px rgba($almost-black, 0.1);
+            grid-column: 1/-1;
+            grid-row: 1/-1;
+        }
+        .div_filter{
+            background-color: rgba($color-home, 0.6);
+            grid-column: 1/-1;
+            grid-row: 1/-1;
+        }
     }
+
+    
     .texts{
         font-family: 'Khand', sans-serif;
         color: $almost-black;
@@ -23,8 +39,9 @@
         width: 30%;
         position: absolute;
         right: 0;
-        bottom: 50px;
+        bottom: 75px;
         text-align: right;
+        background-color: rgba(255,255,255, 0.5);
     }
     .welcome{
         font-size: 180px;
@@ -88,10 +105,7 @@
         text-align: left;
         left: 0;
     }
-    .texts{
-        background-color: rgba(255,255,255, 0.5);
-    }
-
+    
     .div_go_up{
         display: flex;
         flex-direction: column-reverse;
@@ -120,8 +134,9 @@
         margin: 100px 0px ;
 
         .logos{
-            height: 150px;
-            margin: 15px;
+            height: 300px;
+            margin: 30px;
+            border-radius: 25px;
         }
     }
 }

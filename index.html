@@ -9,12 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Khand:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@200&display=swap" rel="stylesheet">
     <title>Pierre CAILLET Portfolio</title>
 </head>
 <body class="home_body">
     <header class="header" id="header">
         <a class="header_link header_skills" href="skills.html">SKILLS</a>
-        <a class="header_link header_name" href="index.html"><h1>CAILLET Pierre</h1></a>
+        <a class=" header_now header_link header_name" href="index.html"><h1>CAILLET Pierre</h1></a>
         <a class="header_link header_work" href="work.html">WORK</a>
     </header>
     <section class="container" id="container">
@@ -28,21 +30,28 @@
             <img class="go_down" src="imgs/dropdown.png" alt="button to go down" onclick="tp_lower()">
         </div>
             <div class="items item1" id="item1">
-            <img src="imgs/friends.png" class=" imgs img_intro"></img>
+            <div class="grid">
+                <img src="imgs/friends.png" class=" imgs img_intro"></img>
+                <div class="div_filter"></div>
+            </div>
             <p class=" texts text_intro">Let me introduce myself, my name is Pierre, my friends call me Pierro.
                 I love to be with them whether it's to go to the movies, have a drink, play sports or just to see them.</p>
         </div>
         <div class="items item2">
-            <img src="imgs/tir.png" class=" imgs img_passions"></img>
+            <div class="grid">
+                <img src="imgs/tir.png" class=" imgs img_passions"></img>
+                <div class="div_filter"></div>
+            </div>
             <p class=" texts text_passions">I have been passionate about sports and e-sport for 12 and 7 years respectively.
                 I practice sports shooting and participated once in the French championships during the 2019/2020 season.
                 I've been playing on my pc for 7 years, I've been playing RocketLeague for 5 years, which in my opinion is the best game.</p>
         </div>
         <div class="items item3">
-            <img class=" imgs img_traveling"src="imgs/tenerife.jpg" alt="Photo of my Holidays at Tenerife">
-            <p class=" texts text_traveling">
-                I recently experienced traveling around the world. It was an incredibly enriching experience from meetings new people, I discoverd new horizons.
-                Thanks to all our little problems, we are more united than ever.</p>
+            <div class="grid">
+                <img class=" imgs img_traveling"src="imgs/tenerife.jpg" alt="Photo of my Holidays at Tenerife">
+                <div class="div_filter"></div>
+            </div>
+            <p class=" texts text_traveling">I recently experienced traveling around the world. It was an incredibly enriching experience from meetings new people, I discoverd new horizons. Thanks to all our little problems, we are more united than ever.</p>
         </div>
         <div class="div_go_up">
             <img class="go_up" src="imgs/dropdown.png" alt="button to go up" onclick="tp_top()">
