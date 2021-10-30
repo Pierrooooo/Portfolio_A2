@@ -110,6 +110,21 @@
     }
 }
 
+.skills_container{
+    background-color: $color-skills;
+
+    .div_logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 100px 0px ;
+
+        .logos{
+            height: 150px;
+            margin: 15px;
+        }
+    }
+}
 
 .home_work{
     background-color: $color-work;

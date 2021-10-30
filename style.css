@@ -104,6 +104,20 @@
   cursor: pointer;
 }
 
+.skills_container {
+  background-color: #FFA999;
+}
+.skills_container .div_logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px 0px;
+}
+.skills_container .div_logos .logos {
+  height: 150px;
+  margin: 15px;
+}
+
 .home_work {
   background-color: #C3AED6;
 }
@@ -152,6 +166,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.skills_footer {
+  background-color: #FFA999;
 }
 
 .header {
@@ -210,6 +228,10 @@
 .works_header h1 {
   font-size: 48px;
   font-weight: normal;
+}
+
+.skills_header {
+  background-color: #FFA999;
 }
 
 /*# sourceMappingURL=style.css.map */
