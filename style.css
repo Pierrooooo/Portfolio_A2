@@ -179,6 +179,12 @@
   font-size: 48px;
   font-weight: normal;
 }
+.header .header_now {
+  text-decoration: underline;
+}
+.header .header_now:hover {
+  text-decoration: none;
+}
 
 .works_header {
   width: 100%;
