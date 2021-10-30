@@ -26,6 +26,13 @@
         font-size: 48px;
         font-weight: normal;
     }
+    .header_now{
+        text-decoration: underline;
+
+        &:hover{
+            text-decoration: none;
+        }
+    }
 }
 
 .works_header{
