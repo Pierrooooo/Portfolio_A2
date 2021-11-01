@@ -144,3 +144,32 @@
 .home_work{
     background-color: $color-work;
 }
+
+.container_404{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .texts_404{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .title_404,.subtitle_404,.try_it_later{
+        font-family: 'Khand', sans-serif;
+        color: blanchedalmond;
+        font-size: 100px;
+    }
+    .title_404{
+        font-size: 150px;
+    }
+    .try_it_later{
+        font-size: 80px;
+    }
+}

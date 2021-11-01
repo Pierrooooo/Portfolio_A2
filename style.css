@@ -134,6 +134,33 @@
   background-color: #C3AED6;
 }
 
+.container_404 {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container_404 .texts_404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container_404 .title_404, .container_404 .subtitle_404, .container_404 .try_it_later {
+  font-family: "Khand", sans-serif;
+  color: blanchedalmond;
+  font-size: 100px;
+}
+.container_404 .title_404 {
+  font-size: 150px;
+}
+.container_404 .try_it_later {
+  font-size: 80px;
+}
+
 .separation {
   border: 2px solid #110F0E;
   color: #333;
