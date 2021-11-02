@@ -4,9 +4,42 @@
     align-items: center;
 }
 
-@mixin xl {
-    @media screen and (max-width: 1200px) {
+@mixin xxl {
+    @media screen and (max-width: 1600px) {
         @content;
+        
     }
 }
 
+@mixin xl {
+    @media screen and (max-width: 1350px) {
+        @content;
+        
+    }
+}
+
+@mixin l {
+    @media screen and (max-width: 1050px) {
+        @content;
+        
+    }
+}
+
+@mixin m {
+    @media screen and (max-width: 800px) {
+        @content;
+        
+    }
+}
+@mixin s {
+    @media screen and (max-width: 650px) {
+        @content;
+        
+    }
+}
+@mixin xs {
+    @media screen and (max-width: 530px) {
+        @content;
+        
+    }
+}

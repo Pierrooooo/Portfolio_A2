@@ -13,4 +13,5 @@ function tp_top() {
 }
 function tp_lower() {
     window.scrollTo({top: 1000, behavior: 'smooth'});
+    // don't tp at the right scroll height on responsive...
 }

@@ -16,6 +16,13 @@
     height: 400px;
     bottom: 0;
 
+    @include m{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .icons{
         width: 40%;
         justify-content: center;
@@ -23,15 +30,28 @@
 
         .icon-github, .icon-insta { 
             width: 96px;
-            height: 96px;
             padding: 24px;
+
+            @include m{
+                width: 62px;
+            }
         }
     }
-    .footer_text{
+    .footer_texts{
         font-size: 48px;
         font-family: 'Khand', sans-serif;
         color: $almost-black;
         padding: 24px;
+
+        @include m{
+            font-size: 24px;
+            padding: 12px;
+        }
+        @include s{
+            font-size: 18px;
+        }
+        
+        
     }
     .footer_link{
         text-decoration-line: underline;
@@ -41,11 +61,20 @@
         &:hover{
             cursor: pointer;
         }
+
+        @include s{
+            padding-bottom: 5px;
+        }
     }
     .footer_others{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+
+        @include s{
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
 .skills_footer{
