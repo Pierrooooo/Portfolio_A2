@@ -3,9 +3,10 @@
     height: 100px;
     display: flex;
     justify-content: space-around;
-    background-color: $color-home;
+    background-color: transparent;
     position: fixed;
     z-index: 1000;
+
 
     .header_link{
         text-decoration: none;
@@ -41,4 +42,14 @@
 }
 .skills_header{
     background-color: $color-skills;
+}
+
+.header_blur{
+    background-color: $color-home;
+    filter: blur(50px);
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
 }

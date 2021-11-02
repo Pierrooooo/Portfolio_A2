@@ -134,8 +134,8 @@
         margin: 100px 0px ;
 
         .logos{
-            height: 300px;
-            margin: 30px;
+            height: 150px;
+            margin: 15px;
             border-radius: 25px;
         }
     }
@@ -159,17 +159,23 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 50%;
     }
     
     .title_404,.subtitle_404,.try_it_later{
         font-family: 'Khand', sans-serif;
-        color: blanchedalmond;
+        color: $orange_light;
         font-size: 100px;
+        text-align: center;
     }
     .title_404{
         font-size: 150px;
     }
     .try_it_later{
-        font-size: 80px;
+        font-size: 60px;
+    }
+    .img_peter_blinder{
+        height: 800px;
+        filter: grayscale(100%);
     }
 }

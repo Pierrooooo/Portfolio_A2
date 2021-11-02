@@ -125,8 +125,8 @@
   margin: 100px 0px;
 }
 .skills_container .div_logos .logos {
-  height: 300px;
-  margin: 30px;
+  height: 150px;
+  margin: 15px;
   border-radius: 25px;
 }
 
@@ -148,17 +148,23 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 50%;
 }
 .container_404 .title_404, .container_404 .subtitle_404, .container_404 .try_it_later {
   font-family: "Khand", sans-serif;
-  color: blanchedalmond;
+  color: #FFD4CC;
   font-size: 100px;
+  text-align: center;
 }
 .container_404 .title_404 {
   font-size: 150px;
 }
 .container_404 .try_it_later {
-  font-size: 80px;
+  font-size: 60px;
+}
+.container_404 .img_peter_blinder {
+  height: 800px;
+  filter: grayscale(100%);
 }
 
 .separation {
@@ -185,8 +191,8 @@
   display: flex;
 }
 .footer .icons .icon-github, .footer .icons .icon-insta {
-  width: 128px;
-  height: 128px;
+  width: 96px;
+  height: 96px;
   padding: 24px;
 }
 .footer .footer_text {
@@ -196,7 +202,8 @@
   padding: 24px;
 }
 .footer .footer_link {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
   color: #110F0E;
 }
 .footer .footer_link:hover {
@@ -217,7 +224,7 @@
   height: 100px;
   display: flex;
   justify-content: space-around;
-  background-color: #EDB4CA;
+  background-color: transparent;
   position: fixed;
   z-index: 1000;
 }
@@ -250,6 +257,16 @@
 
 .skills_header {
   background-color: #FFA999;
+}
+
+.header_blur {
+  background-color: #EDB4CA;
+  filter: blur(50px);
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  position: fixed;
+  top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

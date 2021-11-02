@@ -21,8 +21,8 @@
         display: flex;
 
         .icon-github, .icon-insta { 
-            width: 128px;
-            height: 128px;
+            width: 96px;
+            height: 96px;
             padding: 24px;
         }
     }
@@ -33,7 +33,8 @@
         padding: 24px;
     }
     .footer_link{
-        text-decoration: underline;
+        text-decoration-line: underline;
+        text-decoration-thickness: 3px;
         color: $almost-black;
 
         &:hover{
