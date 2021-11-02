@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
-.home_body{
-    background-color: $color-home;
-}
 .container{
     padding: 5% 10%;
     width: 80%;
+}
+.home_body{
+    background-color: $color-home;
 
     .grid{ 
         display: grid;
@@ -23,6 +23,7 @@
             grid-column: 1/-1;
             grid-row: 1/-1;
         }
+        
         .div_filter{
             background-color: rgba($color-home, 0.6);
             grid-column: 1/-1;
@@ -141,10 +142,12 @@
     }
 }
 
-.home_work{
+.work_body{
     background-color: $color-work;
 }
-
+.work_container{
+    background-color: $color-work
+}
 .container_404{
     background-color: black;
     width: 100%;
