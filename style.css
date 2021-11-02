@@ -453,6 +453,12 @@ body {
   border-radius: 2px;
 }
 
+.assos_container p {
+  padding-top: 150px;
+  color: #110F0E;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 24px;
+}
 .assos_container .grid_assos {
   display: grid;
   height: 1000px;

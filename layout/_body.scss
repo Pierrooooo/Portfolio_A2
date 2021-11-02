@@ -374,6 +374,13 @@ body{
 }
 .assos_container{
 
+    p{
+        padding-top: 150px;
+        color: $almost-black;
+        font-family: 'Darker Grotesque' ,sans-serif;
+        font-size: 24px;
+    }
+
     .grid_assos{
         display: grid;
         height: 1000px;
