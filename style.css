@@ -554,6 +554,7 @@ body {
   text-decoration-line: underline;
   text-decoration-thickness: 3px;
   color: #110F0E;
+  padding: 0 20px;
 }
 .footer .footer_link:hover {
   cursor: pointer;
